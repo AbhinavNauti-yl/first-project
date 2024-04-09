@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('bedroom-5664221_1920.jpg');
+    height: 1265px;
+}
+/*div{
+    border: solid red 2px;
+    margin: 2px;
+}*/
+#name1{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-shadow: 5px 5px white;
+    font-family: 'Courier New', Courier, monospace;
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+#navbar{
+    border-radius: 15px;
+    background-color: #786db466;
+    position: absolute;
+    top: 0px;
+    width: 64%;
+    margin-left: 0px;
+    display: inline-block;
+    ul{
+        overflow: auto;
+        list-style-type: none;
+        li{
+            float: left;
+            margin-right: 30px;
+            a{
+                text-decoration: none;
+                font-size: 38px;
+                color: black;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+    }
+}
+#search{
+    width: 246px;
+    display: inline-block;
+    position:absolute;
+    top:3%;
+    right: 5px;
+    input{
+       border-radius: 8px; 
+       width: 206px;
+       height: 26px;
+    }
+    img{
+        position: relative;
+        top: 8px;
+        display:inline-block;
+        height: 20px;
+    }
+}
+#regform{
+    margin-left: 10px;
+    height: 500px;
+    width: 45%;
+}
+#regform{
+    margin-top: 75px;
+    margin-left: 150px;
+    padding: 50px 50px;
+    border-radius: 72px;
+    background-color: rgb(199 186 170 / 65%);
+    box-shadow: 20px 20px rgb(127, 109, 109);
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 33px;
+    }
+    form{
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 25px;
+                label{
+                    font-size: 20px;
+                    font-family:'Courier New', Courier, monospace;
+                    margin-right: 50px;
+                    font-style: oblique;
+                    font-weight: bold;
+                }
+            }
+        }
+        button{
+            background-color: rgb(13 13 212 / 30%);
+            border-radius: 40px;
+            position: absolute;
+            right: 642px;
+            top: 750px;
+            height: 59px;
+            width: 159px;
+            font-size: larger;
+        }
+    }
+}
+.input{
+    position: absolute;
+    right: 642px;
+    left: 564px;
+    border-radius: 10px;
+    size: 20px;
+    text-align:justify;
+    background-color: rgb(118 116 139 / 42%);
+}
+footer{
+    color: rgb(201, 207, 211);
+    p{
+        font-size:larger;
+    }
+}
